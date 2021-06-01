@@ -1,14 +1,16 @@
 <template>
-	<Header title="About" />
+	<Header title="Gallery" />
 </template>
 
 <script>
 import Header from "../components/layout/Header.vue";
 
 export default {
-	name: "Home",
+	name: "Gallery",
 	components: {
 		Header,
 	},
 };
 </script>
+
+<style></style>
