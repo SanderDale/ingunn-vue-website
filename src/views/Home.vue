@@ -27,9 +27,12 @@ export default {
 
 h1 {
 	font-family: "Playfair Display SC", serif;
+	font-weight: 400;
 	padding-left: 100px;
 	max-width: 50px;
-	font-size: 60px;
+	font-size: 80px;
 	color: #ffffff;
+	letter-spacing: 4px;
+	line-height: 120%;
 }
 </style>
