@@ -29,46 +29,29 @@ header {
 	color: #ffffff;
 }
 
-.about::before {
+header::before {
 	content: "";
 	position: absolute;
 	top: 0;
 	right: 0;
 	left: 0;
 	bottom: 0;
-	background-image: url(../../assets/about-banner.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 0.5;
+}
+
+.about::before {
+	background-image: url(../../assets/about-banner.jpg);
 }
 
 .gallery::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	right: 0;
-	left: 0;
-	bottom: 0;
 	background-image: url(../../assets/gallery-banner.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: 0.5;
 }
 
 .contact::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	right: 0;
-	left: 0;
-	bottom: 0;
 	background-image: url(../../assets/contact-banner.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: 0.5;
 }
 
 @media screen and (min-width: 1024px) {
