@@ -61,6 +61,7 @@ export default {};
 	align-items: center;
 	flex-direction: column;
 	text-align: left;
+	padding-bottom: 50px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -104,6 +105,7 @@ export default {};
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-top: 20px;
 }
 
 .home-about__link a {

@@ -11,10 +11,10 @@
 		<div class="menu-btn__burger"></div>
 	</div>
 	<div class="mobile-menu" :class="{ open: showMenu }">
-		<router-link :to="{ name: 'Home' }">Home</router-link>
-		<router-link :to="{ name: 'About' }">About</router-link>
-		<router-link :to="{ name: 'Gallery' }">Gallery</router-link>
-		<router-link :to="{ name: 'Contact' }">Contact</router-link>
+		<router-link :to="{ name: 'Home' }" @click="toggleMenu">Home</router-link>
+		<router-link :to="{ name: 'About' }" @click="toggleMenu">About</router-link>
+		<router-link :to="{ name: 'Gallery' }" @click="toggleMenu">Gallery</router-link>
+		<router-link :to="{ name: 'Contact' }" @click="toggleMenu">Contact</router-link>
 	</div>
 </template>
 

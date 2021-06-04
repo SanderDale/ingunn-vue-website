@@ -1,5 +1,5 @@
 <template>
-	<Header title="About" />
+	<Header title="About" page="about" />
 	<AboutInfo />
 </template>
 
