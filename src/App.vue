@@ -14,6 +14,10 @@ export default {
 		Navigation,
 		Footer,
 	},
+	metaInfo: {
+		title: "Ingunn Korsgård Hagen",
+		titleTemplate: "%s | Home",
+	},
 };
 </script>
 

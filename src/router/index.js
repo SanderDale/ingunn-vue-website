@@ -1,4 +1,6 @@
+import Vue from "vue";
 import { createRouter, createWebHistory } from "vue-router";
+import Meta from "vue-meta";
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
 import Gallery from "../views/Gallery.vue";

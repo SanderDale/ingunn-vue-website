@@ -16,6 +16,10 @@ export default {
 		AboutInfo,
 		HomeContact,
 	},
+	metaInfo: {
+		title: "Home",
+		titleTemplate: null,
+	},
 };
 </script>
 
