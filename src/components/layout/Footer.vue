@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<p>Copyright @ 2021 Inugnn Korsgård Hagen - Created by Sander W. Dale</p>
+		<p>Copyright @ 2021 Ingunn Korsgård Hagen - Created by Sander W. Dale</p>
 	</div>
 </template>
 
