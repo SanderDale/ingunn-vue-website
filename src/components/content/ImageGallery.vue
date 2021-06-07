@@ -1,6 +1,6 @@
 <template>
 	<div class="gallery-container" v-if="images.length">
-		<div v-for="image in images" :key="image.id" class="gallery-image-container">
+		<div v-for="image in filteredImages" :key="image.id" class="gallery-image-container">
 			<img :src="image.source_url" :alt="image.alt_text" class="gallery-image" />
 		</div>
 	</div>
@@ -17,10 +17,15 @@ export default {
 		};
 	},
 	mounted() {
-		fetch("https://api.ingunnhagen.com/wp-json/wp/v2/media")
+		fetch("https://api.ingunnhagen.com/wp-json/wp/v2/media?per_page=20")
 			.then((response) => response.json())
 			.then((data) => (this.images = data))
 			.catch((error) => console.log(error.message));
+	},
+	computed: {
+		filteredImages() {
+			return this.images.filter((image) => image.alt_text);
+		},
 	},
 };
 </script>
